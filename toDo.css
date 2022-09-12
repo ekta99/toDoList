@@ -1,0 +1,33 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper{
+    margin: 20px;
+    padding: 20px;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+.toDo{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+}
+.complete{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid green;
+}
+#doneContainer,#toDoContainer{
+    padding: 30px;
+    border: 1px solid red;
+}
+.toDoItem{
+    border-bottom: 1px solid #cbcaca;
+    padding: 10px;
+    margin: 10px;
+}
